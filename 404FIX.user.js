@@ -1,16 +1,18 @@
 // ==UserScript==
-// @name         Shikimori 404 Fix
-// @namespace    http://tampermonkey.net/
-// @version      2.5.2
-// @description  Fetch anime info and render 404 pages.
-// @author       404FT
+// @name         Shikimori 404 Fix — возврат удалённых 18+ тайтлов
+// @name:en      Shikimori 404 Fix — restore removed 18+ titles
+// @namespace    https://github.com/alexgrist14/shikimori-404-fix
+// @version      2.6.0
+// @description  Восстанавливает удалённые 18+ аниме/мангу/ранобэ на Shikimori: страницы тайтлов, постеры, комментарии, оценки/прогресс, поиск (censored). Shikimori hentai/Rx 404 fix.
+// @description:en Restores removed adult (18+/hentai/Rx) anime, manga and ranobe on Shikimori: title pages, posters, comments, scores, search.
+// @author       404FT, alexgrist14
 // @match        https://shikimori.one/*
 // @match        https://shikimori.io/*
 // @match        https://shiki.one/*
 // @grant        none
 // @license      MIT
-// @downloadURL https://update.greasyfork.org/scripts/555555/Shikimori%20404%20Fix.user.js
-// @updateURL https://update.greasyfork.org/scripts/555555/Shikimori%20404%20Fix.meta.js
+// @downloadURL  https://raw.githubusercontent.com/alexgrist14/shikimori-404-fix/main/404FIX.bundle.user.js
+// @updateURL    https://raw.githubusercontent.com/alexgrist14/shikimori-404-fix/main/404FIX.bundle.user.js
 // ==/UserScript==
 
 (function () {
